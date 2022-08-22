@@ -1,11 +1,8 @@
-const toggleBtn = document.querySelector('.toggle-btn');
-const toggle = document.querySelector('#toggle');
-console.log(toggle);
+ nav = document.querySelector('.nav')
+ toggleBtn = document.querySelector('.toggle-btn');
 
 
-console.log(toggleBtn);
- collapse = document.querySelectorAll('.collapse');
 
-// toggleBtn.addEventListener('click', function(){
-//     console.log('collapse clicked')
-// })
+toggleBtn.addEventListener('click', function(){
+    nav.classList.toggle('collapse-toggle')
+})

@@ -1,57 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Website</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Website</title>
+  <link rel="stylesheet" href="./style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="nav">
-        <div class="nav-brand">
-            <a href="#">BLOGS</a>
-        </div>
-
-        <button class="toggle-btn" id="toggle">
-           <span><a href="#" class="toggle-collapse"><i class="fa-solid fa-bars"></i></a></span>
-        </button>
-
-        <div class="collapse">
-            <ul class="nav-item">
-                <li class="nav-link"><a href="#">Home</a></li>
-                <li class="nav-link"><a href="#">Popular</a></li>
-                <li class="nav-link"><a href="#">Category</a></li>
-                <li class="nav-link"><a href="#">Best</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
-                <li class="nav-link"><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="social-link collapse">
-           <a href="#" class="icon"><i class="fa-brands fa-facebook"></i><span class="text-smd">Facebook</span></a>
-           <a href="#" class="icon"><i class="fa-brands fa-instagram"></i><span class="text-smd">Instagram</span></a>
-           <a href="#" class="icon"><i class="fa-brands fa-square-twitter"></i><span class="text-smd">Twitter</span></a>
-           <a href="#" class="icon"><i class="fa-brands fa-youtube"></i><span class="text-smd">Youtube</span></a>
-        </div>
-    </nav>
+  <nav class="nav">
+    <div class="nav-brand">
+      <a href="#">BLOGS</a>
+    </div>
+    <button class="toggle-btn" id="toggle">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse">
+      <ul class="nav-item">
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link"><a href="#">Popular</a></li>
+        <li class="nav-link"><a href="#">Category</a></li>
+        <li class="nav-link"><a href="#">Best</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+        <li class="nav-link"><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="social-link collapse">
+      <a href="#" class="icon"><i class="fa-brands fa-facebook"></i><span class="text-smd">Facebook</span></a>
+      <a href="#" class="icon"><i class="fa-brands fa-instagram"></i><span class="text-smd">Instagram</span></a>
+      <a href="#" class="icon"><i class="fa-brands fa-square-twitter"></i><span class="text-smd">Twitter</span></a>
+      <a href="#" class="icon"><i class="fa-brands fa-youtube"></i><span class="text-smd">Youtube</span></a>
+    </div>
+  </nav>
 
     <div class="main-post">
-        <div class="main-text">
-            <h3 class="single-head">AI and Big Data</h3>
+      <div class="main-text">
+        <h3 class="single-head">AI and Big Data</h3>
             <p class="single-text">In general terms, AI refers to computational tools that are able to substitute for human intelligence in the performance of certain tasks. This technology is currently advancing at a breakneck pace, much like the exponential growth experienced by database technology in the late twentieth century. Databases have grown to become the core infrastructure that drives enterprise-level software. Similarly, most of the new value added from software over the coming decades is expected to be driven, at least in part, by AI.
 
                 Within the last decade, databases have evolved significantly in order to handle the new phenomenon dubbed “big data.” This refers to the unprecedented size and global scale of modern data sets, largely gathered from the computer systems that have come to mediate nearly every aspect of daily life. For instance, YouTube receives over 400 hours of video content each minute (Brouwer 2015).</p>
-                <button class="single-button">Read More<i class="fa-solid fa-arrow-right"></i></button>
+                <button class="single-button"><a class="button-a" href="blog.html">Read More</a><i class="fa-solid fa-arrow-right"></i></button>
         </div>
         <div class="main-image">
             <img src="./images/s-o-c-i-a-l-c-u-t-r0saAQNjEjQ-unsplash.jpg" alt="" width="100%" height="100%" class="img-style">
-   
         </div>
       </div>
 
@@ -70,13 +67,7 @@
             </p>
                 <button class="single-button">Read More<i class="fa-solid fa-arrow-right"></i></button>
         </div>
-       
       </div>
-
-
-
-
-    
 
     <div class="heading">
         <h2 class="main-heading">Popular posts</h2>
@@ -156,18 +147,14 @@
             <div class="insta-post">
                 <img src="./images/sara-kurfess-6lcT2kRPvnI-unsplash.jpg" alt="" width="100%" height="100%">
             </div>
-          
-            
         </div>
+        
         <div class="footer-item social">
             <h2 class="mb-30">Social</h2>
-          
             <a href="#" class="w-icon"><i class="fa-brands fa-facebook"></i></a>
             <a href="#" class="w-icon"><i class="fa-brands fa-instagram"></i></a>
             <a href="#" class="w-icon"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="#" class="w-icon"><i class="fa-brands fa-youtube"></i></a>
- 
-
         </div>
 </footer>
 
